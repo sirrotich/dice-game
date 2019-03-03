@@ -17,14 +17,62 @@ h1 {
   color: green;
   font-family: 'Indie Flower', cursive;
   font-size: 40px;
-  background-color: skyblue;
+  background-image: url(../images/image0000.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  glyphicon-text-color: black;
 }
 .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: skyblue;
-   color: white;
-   text-align: center;
+  position: fixed;
+  color: white;
+  background-color: black;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-image: url(../images/image0000.gif);
+}
+.t {
+  background-color: red;
+}
+.p1 {
+  float: left;
+  color: red;
+}
+.p2 {
+  color: red;
+  float: right;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  text-align: center;
+}
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  text-align: center;
+}
+.D {
+  color: white;
+}
+.O {
+  color: white;
+}
+.U {
+  color: white;
 }
