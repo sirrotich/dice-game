@@ -20,7 +20,6 @@ h1 {
   background-image: url(../images/image0000.gif);
   background-repeat: no-repeat;
   background-size: cover;
-  glyphicon-text-color: black;
 }
 .footer {
   position: fixed;
@@ -48,23 +47,18 @@ body {
   color: red;
   float: right;
 }
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 .column {
   float: left;
   width: 50%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 300px;
   text-align: center;
 }
 .column2 {
   float: left;
   width: 50%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 300px;
   text-align: center;
 }
 .D {

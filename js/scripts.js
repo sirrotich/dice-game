@@ -102,6 +102,7 @@ $(document).ready(function() {
     $("#die-roll-1").text(player1.roll);
     player1.rollone();
     $("#round-total-1").text(player1.turnscore);
+    alert(yes);
   });
 
   $("button#player2-roll").click(function(event){
