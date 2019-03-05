@@ -33,7 +33,6 @@ player.prototype.pause = function() {
 }
 
 // user interface
-
 $(document).ready(function() {
 player1 = new player();
 player2 = new player();
